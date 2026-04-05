@@ -1,0 +1,11 @@
+**/*.csv
+**/*.zip
+**/*.gz
+
+
+**/ieee-fraud-detection/
+
+!*.pkl
+
+__pycache__/
+*.py[cod]
