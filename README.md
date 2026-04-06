@@ -121,19 +121,19 @@ Every transformation object (encoders, scalers, frequency maps) is persisted as 
 ```text
 fraud-detection-feature-engineering-pipeline/
 │
-├── Train_Data_Preprocessing.ipynb   # Full training pipeline
-├── Test_Data_Preprocessing.ipynb    # Inference pipeline (reuses .pkl artifacts)
-├── Train_Data_Preprocessing.pdf     # Notebook export with all outputs
-├── Test_Data_Preprocessing.pdf      # Notebook export with all outputs
+├── Train_Data_Preprocessing.ipynb    # Full training pipeline
+├── Test_Data_Preprocessing.ipynb     # Inference pipeline (reuses .pkl artifacts)
+├── Train_Data_Preprocessing.pdf      # Notebook export with all outputs
+├── Test_Data_Preprocessing.pdf       # Notebook export with all outputs
 │
-├── label_encoders_dict.pkl          # Categorical → numeric mappings
-├── min_max_scaler.pkl               # Scaler for TransactionAmt
-├── scaler_c.pkl                     # Scaler for C-feature group
-├── scaler_d.pkl                     # Scaler for D-feature group
-├── scaler_v.pkl                     # Scaler for V-feature group
-├── addr1_counts.pkl                 # Frequency map for addr1 encoding
+├── label_encoders_dict.pkl           # Categorical → numeric mappings
+├── min_max_scaler.pkl                # Scaler for TransactionAmt
+├── scaler_c.pkl                      # Scaler for C-feature group
+├── scaler_d.pkl                      # Scaler for D-feature group
+├── scaler_v.pkl                      # Scaler for V-feature group
+├── addr1_counts.pkl                  # Frequency map for addr1 encoding
 │
-├── .gitignore                       # Excludes 6GB+ raw CSVs
+├── .gitignore                        # Excludes 6GB+ raw CSVs
 └── README.md
 ```
 ---
